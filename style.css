@@ -49,7 +49,7 @@ h3{
     justify-content: center;
 }
 .col-md-12:hover{
-    box-shadow: 10px 10px 40px black;
+    box-shadow: 10px 10px 40px black;}
 /* ///////////// CSS FOR TITLE AND ANIMATION///////////////// */
 .title{
     font-family: 'Rubik Mono One', sans-serif;
