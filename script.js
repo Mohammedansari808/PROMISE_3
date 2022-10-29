@@ -2,6 +2,7 @@ let rowDog = document.getElementById("row-dog");
 let selectOption = document.getElementById("dd-selected");
 
 let contain = document.getElementById("container-dog")
+///////////// CODE TO FETCH THE LIST OF BREEDS//////////////
 async function coffees(){  
     let dogs = await fetch("https://dog.ceo/api/breeds/list/all")
     let dogsData = await dogs.json()
@@ -9,6 +10,7 @@ async function coffees(){
         if (Response==200){
                 throw new Error ("NOT FOUND")
         }
+/////////////LOOP TO CREATE THE OPTION TAG//////////////////////////
         for(let key in dogsData.message){
             let optionBreed = document.createElement("option");
             optionBreed.setAttribute("class","inside-select")
@@ -32,7 +34,7 @@ function getOption() {
     let dogName = (document.getElementById('dd-selected').value);
 
 
-
+//////////// FETCHING THE IMAGE CLAIMING THE VALUE FROM THE OPTION ///////////////////
     async function coffee(){
    
         let dogs = await fetch(`https://dog.ceo/api/breed/${dogName}/images/random`)
@@ -48,6 +50,7 @@ function getOption() {
         <img src="${dogsData.message}">
         </div>
         `
+        /////////// TO CLEAR THE PREVIOUS DISPLAYED IMAGE/////////////
         let col = document.querySelectorAll(".col-md-12")
         if (col.length == 1){
             col[0].remove()
