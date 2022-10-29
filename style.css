@@ -48,6 +48,8 @@ h3{
     flex-direction: column;
     justify-content: center;
 }
+.col-md-12{
+    box-shadow: 10px 10px 40px black;
 /* ///////////// CSS FOR TITLE AND ANIMATION///////////////// */
 .title{
     font-family: 'Rubik Mono One', sans-serif;
