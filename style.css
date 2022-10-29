@@ -11,6 +11,7 @@ body{
     box-shadow: inset 4px 4px 30px black;
     
 }
+////////////CSS FOR DOGS////////////////////
 .dog-image{
 text-align: center;
 padding:50px
@@ -27,7 +28,7 @@ img:hover{
     box-shadow: 5px 5px 30px rgb(151, 151, 151);
     transition: ease-in-out 1.0s;
 }
-
+///////////////////CSS FOR HEADER OF THE PARTICULAR IMAGE//////////////////////
 h3{
     text-shadow: 0px 0px 15px black;
     color: white;
@@ -36,6 +37,7 @@ h3{
     font-size: 100px;
    
 }
+/////////////CSS FOR COLUMN /////////////////////////
 .col-md-12{
     background-color: transparent;
     margin:30px;
@@ -46,6 +48,7 @@ h3{
     flex-direction: column;
     justify-content: center;
 }
+///////////// CSS FOR TITLE AND ANIMATION/////////////////
 .title{
     font-family: 'Rubik Mono One', sans-serif;
     padding:35px;
@@ -64,6 +67,7 @@ h3{
     70%  {letter-spacing: 50px;font-size: 150px;}
     100% {letter-spacing: 1px;font-size: 140px;}
 }
+
 .info{
     text-align: center;
     color: white;
@@ -72,6 +76,7 @@ h3{
     font-size: x-large;
     margin:30px
 }
+///////////CSS FOR SELECT AND OPTION/////////////////
 #select{
     text-align: center;
     
@@ -99,6 +104,7 @@ h3{
     width:420px;
     height:70px;
 }
+////////////// FOR SCROLL BAR/////////////////////
 ::-webkit-scrollbar{
     
     width:10px;
@@ -127,6 +133,7 @@ h3{
     width:15px;
     transition: ease-in-out 0.8s;
 }
+////////CSS FOR INSIDE THE OPTION////////////////////
 .inside-select{
     background-color:rgb(196, 79, 36);
     padding: 16px;
