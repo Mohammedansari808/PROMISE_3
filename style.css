@@ -4,7 +4,7 @@
 
 
 body{
-    background-image: url(./bg-image.jpg);
+    background-image: url(./assets/bg-image.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ h3{
     height: 50px;
     width:400px;
     font-family: 'Rubik Mono One', sans-serif;
-    background-image: url(./mouse-dog-removebg-preview.png);
+    background-image: url(./assets/mouse-dog-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: 5% -20%;
     transition: ease 0.8s;
